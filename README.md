@@ -28,6 +28,6 @@ Designed specifically for **high-voltage, high-reliability EV environments**, th
 
 | Schematic | PCB Layout |
 |----------|-------------|
-| ![Schematic](IMD_SCHEMATIC.png) | ![PCB Layout](IMD_PCB.png) |
+| ![Schematic](IMD_SCHEMATIC.png)| ![PCB Layout](IMD_PCB.png) |
 
 
