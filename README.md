@@ -4,14 +4,12 @@ This repository contains the complete design for a **custom fault detecting PCB*
 
 # 🔧 Project Overview
 
-The PCB takes input signal from the **Insulation Monitoring Device (IMD)** of the EV (IMD checks for galvanic isolation between two independent circuitries incase of any fault or any current leaks bw both isolated circuits the IMD sends a fault signal) and performs critical safety operations:
+Developed a custom high-voltage safety PCB designed to interface with the Insulation Monitoring Device (IMD) in a Formula Student electric vehicle, ensuring critical fault detection and system protection in compliance with Formula Bharat 2025 safety standards:
 
-- Latches fault signals and triggers a shutdown in case of insulation failure
-- Drives cockpit indicator lights to inform the driver of system state
-- Implements logic to foolproof shutdown behavior in edge cases
-- Includes short circuit protection
-
-Designed specifically for **high-voltage, high-reliability EV environments**, this PCB complies with Formula Bharat 2025 safety rules and integrates with the car's shutdown circuit. All PCB's components are thoroughly researched to pass temperature and and voltage ratings to make sure PCB runs as intended in all cases possible.
+- Fault signal latching with reliable shutdown triggering.
+- Cockpit indicator light control for driver alerts on system state.
+- Logic implementation for fail-safe shutdown behavior under edge cases.
+- Short circuit protection integrated for high-reliability operation.
 
 ## 🛠️ Tools Used
 - **EasyEDA** for schematic and PCB layout
@@ -20,13 +18,14 @@ Designed specifically for **high-voltage, high-reliability EV environments**, th
 - Reviewed over 200+ datasheets for critical component selection for current , temperature and voltage rating.
 
 ## 📐 Key Features
-- 600V system-rated layout with optimized creepage/clearance
-- Multi-stage relay-based latching mechanism
-- Compact, 2-layer PCB with thermal-aware routing
+- High-voltage tolerant, 600V-rated PCB layout with optimized creepage and clearance distances
+- Multi-stage relay-based latching mechanism for robust fault handling
+- Compact 2-layer PCB with thermal-aware routing for efficient heat dissipation
+- Meticulous component selection backed by review of 200+ datasheets to meet stringent current, temperature, and voltage requirements
 
 ## 📸 Previews
 
-| Schematic | PCB Layout |
+| Schematic | PCB Layout | 
 |----------|-------------|
 | ![Schematic](IMD_SCHEMATIC.png)| ![PCB Layout](IMD_PCB.png) |
 
