@@ -25,8 +25,8 @@ Developed a custom high-voltage safety PCB designed to interface with the Insula
 
 ## 📸 Previews
 
-| Schematic | PCB Layout | 
-|----------|-------------|
-| ![Schematic](IMD_SCHEMATIC.png)| ![PCB Layout](IMD_PCB.png) |
+| Schematic | PCB Layout | Fabricated PCB |
+|----------|-------------|----------------|
+| ![Schematic](IMD_SCHEMATIC.png)| ![PCB Layout](IMD_PCB.png) | ![Fabricated PCB](Fabricated_PCB.jpg) |
 
 
